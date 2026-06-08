@@ -454,10 +454,10 @@ def _apply_page_style() -> None:
             padding-bottom: 2rem;
         }
         [data-testid="stMetric"] {
-            border: 1px solid #e5e7eb;
+            border: 1px solid rgba(148, 163, 184, 0.35);
             border-radius: 8px;
             padding: 0.85rem 1rem;
-            background: #ffffff;
+            background: rgba(255, 255, 255, 0.04);
         }
         div[data-testid="stDownloadButton"] button,
         div[data-testid="stButton"] button {
