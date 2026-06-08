@@ -99,18 +99,6 @@ The app opens in your browser. If the default YOLO model is not already cached, 
 5. Review detections, lane status, segmentation status, pothole count, and risk score.
 6. Download the processed output or markdown report.
 
-## Course Topics Covered
-
-- Image filtering: Gaussian blur is used before edge detection.
-- Edge detection: Canny extracts strong lane-related edges.
-- Transformations: Color-space conversions and geometric region masking are used.
-- Hough Transform: Probabilistic Hough Lines detect lane segments.
-- Model fitting: Lane candidates are averaged with slope-intercept line fitting.
-- CNN: YOLO uses convolutional features for object detection.
-- CNN architectures: The project uses a modern YOLO detector architecture through Ultralytics.
-- Segmentation: A classical road mask is included, with deep segmentation as an extension.
-- Attention/Transformers as future extension: SegFormer, SAM, or transformer-based road parsing can be added later.
-
 ## Custom Pothole Model
 
 Pothole detection needs a custom model because potholes are not included in the default COCO classes.
