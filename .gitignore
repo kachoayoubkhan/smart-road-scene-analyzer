@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated outputs
+assets/outputs/*
+!assets/outputs/.gitkeep
+
+# Large model weights and exports
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.torchscript
+!models/README.md
+
+# Local media experiments
+assets/sample_images/*
+assets/sample_videos/*
+!assets/sample_images/.gitkeep
+!assets/sample_videos/.gitkeep
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
