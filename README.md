@@ -94,7 +94,7 @@ The app opens in your browser. If the default YOLO model is not already cached, 
 
 1. Select modules in the sidebar.
 2. Adjust the confidence threshold.
-3. Upload a road image or video
+3. Upload a road image or video.
 4. Click **Process Image** or **Process Video**.
 5. Review detections, lane status, segmentation status, pothole count, and risk score.
 6. Download the processed output or markdown report.
